@@ -13,7 +13,7 @@ The CallBack FTP reporting option uses the FTPBeacon function which allows logs 
 **Callback Both**  
 The CallBack Both reporting option uses both FormBeacon & FTPBeacon functions which each create a copy of the log file entitling the log file with a file ID where the file ID will be the same on each. Depending which beacon sent the log, the file ID will be appended with '-url' or '-ftp' to differentiate.
 
-# **Set the Reporting Option**  
+# **Set the Reporting Method**  
 By default, the reporting method is set to use the CallBack URL method but can easily be changed to use FTP or Both.
 ```
 a) Open 'keyFrame.py' & scroll the the bottom of the script

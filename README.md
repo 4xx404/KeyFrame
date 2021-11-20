@@ -10,7 +10,7 @@ The CallBack URL reporting option uses the FormBeacon function which allows logs
 **CallBack FTP**  
 The CallBack FTP reporting option uses the FTPBeacon function which allows logs to be sent to an FTP server. This method creates the log file on the victim machine & sends the log file to your FTP server. Once the log has been sent, it is deleted from the victim machine.
 
-**Callback Both**
+**Callback Both**  
 The CallBack Both reporting option uses both FormBeacon & FTPBeacon functions which each create a copy of the log file entitling the log file with a file ID where the file ID will be the same on each. Depending which beacon sent the log, the file ID will be appended with '-url' or '-ftp' to differentiate.
 
 # **Set the Reporting Option**  

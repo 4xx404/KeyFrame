@@ -1,7 +1,7 @@
 # KeyFrame  
 A common method I see being used in keylogger development is to send the logs to the attackers **email address**. In order to send logs to an email address, we are required to enter our email credentials into the keylogger script that would be installed on the victim machine. What happens if/when the keylogger is discovered on the victim machine & code analysis is done? They have your email credentials.
 
-KeyFrame is a keylogger that tackles this problem while allowing for different methods of log delivery. The methods KeyFrame offers gives you much more control over your own security by relying on the configurations of the web/FTP server. It also gives room for growth in making this tool even more secure, particularly server side. KeyFrame runs as a daemon meaning that running this keylogger on the victim machine as a startup script would give persistence.  
+KeyFrame is a keylogger that tackles this problem by allowing for different methods of log delivery. The methods KeyFrame offers gives you much more control over your own security by relying on the configurations of the web/FTP server. It also gives room for growth in making this tool even more secure, particularly server side. KeyFrame runs as a daemon meaning that running this keylogger on the victim machine as a startup script would give persistence.  
 
 # **Reporting Options**  
 **CallBack URL**  

@@ -3,7 +3,7 @@ A common method I see being used in keylogger development is to send the logs to
 
 KeyFrame is a keylogger that tackles this problem by allowing for different methods of log delivery. The methods KeyFrame offers gives you much more control over your own security by relying on the configurations of the web/FTP server. It also gives room for growth in making this tool even more secure, particularly server side. KeyFrame runs as a daemon meaning that running this keylogger on the victim machine as a startup script would give persistence.  
 
-# **Reporting Options**  
+# **Reporting Methods**  
 **CallBack URL**  
 The CallBack URL reporting option uses the FormBeacon function which allows logs to be sent to a specially built php webpage that handles the creation of the logs on the server.  
 

@@ -15,8 +15,8 @@ The CallBack Both reporting option uses both FormBeacon & FTPBeacon functions wh
 
 # **Set the Reporting Method**  
 By default, the reporting method is set to use the CallBack URL method but can easily be changed to use FTP or Both.  
-a) Open 'keyFrame.py' & scroll to the bottom of the script  
-b) In the 'ReportMethodInUse' variable, enter the reporting method you want to use. The allowed methods are 'callback_url', 'callback_ftp' or 'callback_both'  
+1. Open 'keyFrame.py' & scroll to the bottom of the script  
+2. In the 'ReportMethodInUse' variable, enter the reporting method you want to use. The allowed methods are 'callback_url', 'callback_ftp' or 'callback_both'  
   
 * The reporting methods **Delay** can also be set here. The **Delay** is 60 seconds by default which means that after keys have been pressed, it waits 60 seconds before sending the logs to your server.  
 

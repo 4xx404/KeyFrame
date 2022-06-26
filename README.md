@@ -14,11 +14,10 @@ The CallBack FTP reporting option uses the FTPBeacon function which allows logs 
 The CallBack Both reporting option uses both FormBeacon & FTPBeacon functions which each create a copy of the log file entitling the log file with a file ID where the file ID will be the same on each. Depending which beacon sent the log, the file ID will be appended with '-url' or '-ftp' to differentiate.
 
 # **Set the Reporting Method**  
-By default, the reporting method is set to use the CallBack URL method but can easily be changed to use FTP or Both.
-```
-a) Open 'keyFrame.py' & scroll the the bottom of the script
-b) In the 'ReportMethodInUse' variable, enter the reporting method you want to use. The allowed methods are 'callback_url', 'callback_ftp' or 'callback_both'
-```  
+By default, the reporting method is set to use the CallBack URL method but can easily be changed to use FTP or Both.  
+a) Open 'keyFrame.py' & scroll to the bottom of the script  
+b) In the 'ReportMethodInUse' variable, enter the reporting method you want to use. The allowed methods are 'callback_url', 'callback_ftp' or 'callback_both'  
+  
 * The reporting methods **Delay** can also be set here. The **Delay** is 60 seconds by default which means that after keys have been pressed, it waits 60 seconds before sending the logs to your server.  
 
 # Setting up KeyFrame

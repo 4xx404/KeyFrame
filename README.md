@@ -46,4 +46,4 @@ c) Open 'keyFrame.py' in a text editor & enter the callback URL address into the
 a) Setup an FTP Server (possible to use a webhost service if they offer FTP) & make a note of your servers host address, username & password
 b) Open 'keyFrame.py' & change the FTPHost, FTPUsername & FTPPassword variables to match your FTP server credentials
 ```  
-**CallBack FTP setup is complete**
+**CallBack FTP setup is now complete**
